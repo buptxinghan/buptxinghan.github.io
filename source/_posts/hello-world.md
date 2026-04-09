@@ -7,7 +7,7 @@ categories:
 tags:
   - Hexo
   - Keep
-home_cover: /medias/featureimages/12.jpg
+home_cover: /medias/featureimages/8.jpg
 post_cover: /medias/banner/1.jpg
 ---
 
