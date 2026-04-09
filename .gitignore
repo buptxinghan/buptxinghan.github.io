@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Hexo
+public/
+.deploy_git/
+db.json
+
+# OS
+.DS_Store
