@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "Hexo source for buptxinghan.github.io",
+  "hexo": {
+    "version": "7.3.0"
+  },
   "scripts": {
     "clean": "hexo clean",
     "build": "hexo generate",
