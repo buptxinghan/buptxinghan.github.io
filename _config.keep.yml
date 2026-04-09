@@ -1,0 +1,83 @@
+base_info:
+  primary_color: "#5b7cfa"
+  title: XingHan的小窝
+  author: Xing Han
+  avatar: /medias/avatar.jpg
+  logo: /favicon.png
+  favicon: /favicon.png
+
+menu:
+  home: / || fa-solid fa-house
+  archives: /archives || fa-solid fa-box-archive
+  tags: /tags || fa-solid fa-tags
+  categories: /categories || fa-solid fa-layer-group
+  links: /friends || fa-solid fa-link
+  about: /about || fa-solid fa-user
+
+first_screen:
+  enable: true
+  background_img: /images/keep-hero.svg
+  background_img_dark: /images/keep-hero.svg
+  description: 不积跬步，无以至千里。||Keep writing. Keep loving.
+  hitokoto: false
+
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/buptxinghan
+    email: 1419395226@qq.com
+
+scroll:
+  progress_bar: true
+  percent: false
+  hide_header: true
+
+home:
+  announcement: 这是一个持续打磨中的 Hexo 博客，现在已经切换到更简洁的 Keep 主题。
+  category: true
+  tag: true
+  post_datetime: created
+
+post:
+  author_badge:
+    enable: true
+    level_badge: false
+    custom_badge:
+      - Keep Going
+  word_count:
+    wordcount: false
+    min2read: false
+  datetime_format: YYYY-MM-DD
+  copyright_info: false
+  share: false
+  reward:
+    enable: false
+
+code_block:
+  tools:
+    enable: true
+    style: mac
+  highlight_theme: obsidian
+
+toc:
+  enable: true
+  number: false
+  expand_all: false
+  init_open: true
+  layout: right
+
+rss:
+  enable: true
+
+footer:
+  since: 2023
+  word_count: false
+  site_deploy:
+    enable: true
+    provider: github
+    url: https://github.com/buptxinghan/buptxinghan.github.io
+
+inject:
+  enable: true
+  css:
+    - /css/custom.css

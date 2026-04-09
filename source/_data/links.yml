@@ -1,0 +1,9 @@
+- title: 我的站点
+- name: GitHub
+  link: https://github.com/buptxinghan
+  avatar: /favicon.png
+  description: 代码、实验项目和一些还在成长中的想法。
+- name: MyBlog
+  link: https://github.com/buptxinghan/MyBlog
+  avatar: /favicon.png
+  description: 我自己手写的静态博客原型，保留了很多现在依然喜欢的设计感觉。

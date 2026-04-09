@@ -1,32 +1,40 @@
 ---
-title: Hello World
+title: 从旧静态站切到 Hexo Keep
 date: 2023-06-24 20:07:45
 author: Xing Han
-cover: /medias/featureimages/12.jpg
+categories:
+  - Notes
+tags:
+  - Hexo
+  - Keep
+home_cover: /medias/featureimages/12.jpg
+post_cover: /medias/banner/1.jpg
 ---
 
-Welcome to [Hexo](https://hexo.io/)! This is your first post in the migrated source repository.
+这篇文章是新的起点。
 
-## Quick Start
+之前这个仓库直接保存生成后的静态文件，现在已经切换成真正的 Hexo 源码仓库，并换上了更简洁的 Keep 主题。接下来会继续慢慢把内容、页面和风格都整理得更顺眼一些。
 
-### Create a new post
+## 现在的工作方式
+
+### 写新文章
 
 ```bash
 npx hexo new post "My New Post"
 ```
 
-### Run the local server
+### 本地预览
 
 ```bash
 npm run server
 ```
 
-### Generate static files
+### 生成静态文件
 
 ```bash
 npm run build
 ```
 
-### Publish with GitHub Pages
+### 发布方式
 
-Push the `main` branch after switching Pages to `GitHub Actions`, and GitHub will build and publish the site automatically.
+推送 `main` 分支之后，GitHub Pages 会通过 Actions 自动构建并发布 `public/`。

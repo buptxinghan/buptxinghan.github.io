@@ -1,8 +1,9 @@
 ---
-title: friends
+title: 友链
 date: 2026-04-09 12:00:00
-type: friends
-layout: friends
+template: links
+page_cover: /medias/banner/4.jpg
+page_cover_title: Links
 ---
 
-欢迎交换友链。
+如果你也在认真写博客，欢迎之后来交换友链。
