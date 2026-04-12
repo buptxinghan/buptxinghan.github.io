@@ -182,6 +182,10 @@ body {
   overflow: hidden;
 }
 
+.page-template-container .page-cover-title {
+  display: none;
+}
+
 .page-template-container.has-page-cover .page-cover-title,
 .post-page-container .cover-post-title {
   position: relative;
